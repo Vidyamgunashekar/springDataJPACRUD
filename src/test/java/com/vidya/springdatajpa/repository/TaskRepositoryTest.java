@@ -62,7 +62,7 @@ class TaskRepositoryTest {
     @Test
     void readMethod() {
         // Assuming a task with id 1 exists for this example
-        Optional<Task> taskOptional = taskRepository.findById(1L);
+        Optional<Task> taskOptional = taskRepository.findById(2L);
 
         assertTrue(taskOptional.isPresent(), "Task should be present");
 
